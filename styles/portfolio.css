@@ -20,5 +20,9 @@ h1 {
 }
 
 .container {
+  max-width: 70%;
+  align-content: center;
   display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 15px;
 }
