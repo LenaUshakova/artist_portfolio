@@ -25,70 +25,21 @@ h2 {
   margin-bottom: 50px;
 }
 
-img:hover {
+.image-fill:hover {
   opacity: 50%;
   transition: all 500ms ease;
 }
 
 .container {
-  max-width: 70%;
+  width: 70vw;
+  height: 60vw;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 15px;
+  grid-gap: 12px;
 }
 
 .grid-1 {
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-row-end: 4;
-}
-
-.grid-2 {
-  grid-column-start: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-.grid-3 {
-  grid-column-start: 3;
-  /* grid-row-start: 1;
-  grid-row-end: 3; */
-}
-
-.grid-4 {
-  grid-column-start: 4;
-  /* grid-row-start: 1;
-  grid-row-end: 3; */
-}
-
-.grid-5 {
-  grid-column-start: 1;
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
-.grid-6 {
-  grid-column-start: 2;
-  /* grid-row-start: 2;
-  grid-row-end: 4; */
-}
-
-.grid-7 {
-  grid-column-start: 3;
-  /* grid-row-start: 3;
-  grid-row-end: 5; */
-}
-
-.grid-8 {
-  grid-column-start: 4;
-  /* grid-row-start: 3;
-  grid-row-end: 5; */
-}
-
-.grid-9 {
-  grid-column-start: 2;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-row: span 3;
 }
 
 .grid-3,
@@ -99,9 +50,51 @@ img:hover {
   grid-row: span 2;
 }
 
+.image-fill {
+  background-size: cover;
+  background-position: center;
+}
+
+.grid-1.image-fill {
+  background-image: url("/images/bicycle_lemons.JPG");
+}
+
+.grid-2.image-fill {
+  background-image: url("/images/barkas.jpg");
+}
+
+.grid-3.image-fill {
+  background-image: url("/images/protea.JPG");
+}
+
+.grid-4.image-fill {
+  background-image: url("/images/sky.JPG");
+}
+
+.grid-5.image-fill {
+  background-image: url("/images/lemons_2.JPG");
+}
+
+.grid-6.image-fill {
+  background-image: url("/images/girl_red_barret.JPG");
+}
+
+.grid-7.image-fill {
+  background-image: url("/images/lemons.JPG");
+}
+
+.grid-8.image-fill {
+  background-image: url("/images/roquebrun.jpg");
+}
+
+.grid-9.image-fill {
+  background-image: url("/images/flowers.JPG");
+}
+
 @media (max-width: 576px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
+    height: 170vw;
     grid-gap: 10px;
   }
   h1 {
@@ -112,4 +105,4 @@ img:hover {
     font-size: small;
     margin-bottom: 25px;
   }
-} ;
+}
