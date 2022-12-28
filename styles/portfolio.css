@@ -25,12 +25,20 @@ h2 {
   margin-bottom: 50px;
 }
 
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: medium;
+  font-weight: 600;
+  opacity: 80%;
+  margin-bottom: 20px;
+}
+
 .image-fill:hover {
   opacity: 50%;
   transition: all 500ms ease;
 }
 
-.container {
+.main-section {
   width: 70vw;
   height: 50vw;
   display: grid;
@@ -89,6 +97,25 @@ h2 {
 
 .grid-9.image-fill {
   background-image: url("/images/flowers.JPG");
+}
+
+.about-text {
+  font-family: "Poppins", sans-serif;
+}
+
+.about-section {
+  width: 70vw;
+  height: 50vw;
+}
+
+.about-text h2 {
+  color: black;
+  opacity: 100%;
+}
+
+.about-text p {
+  font-weight: 300;
+  font-size: smaller;
 }
 
 @media (max-width: 576px) {
