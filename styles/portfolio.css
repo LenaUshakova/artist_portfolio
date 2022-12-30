@@ -101,10 +101,18 @@ h3 {
 
 .about-text {
   font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+
+.about-text a {
+  text-decoration: none;
+  color: black;
+  opacity: 70%;
+  font-weight: 400;
 }
 
 .about-section {
-  width: 70vw;
+  width: 55vw;
   height: 50vw;
 }
 
@@ -131,5 +139,19 @@ h3 {
   h2 {
     font-size: small;
     margin-bottom: 25px;
+  }
+
+  .about-text h3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .about-section img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about-section {
+    width: 70vw;
   }
 }
