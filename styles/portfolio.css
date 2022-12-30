@@ -168,6 +168,12 @@ textarea {
   margin: 3px;
 }
 
+input.name,
+.email,
+textarea:focus {
+  outline-color: rgb(77, 77, 77);
+}
+
 .submit {
   background-color: black;
   color: white;
