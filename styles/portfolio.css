@@ -93,7 +93,7 @@ h3 {
 
 .gallery-section {
   width: 70vw;
-  height: 120vw;
+  height: 110vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 23px;
