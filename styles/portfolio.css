@@ -305,8 +305,14 @@ textarea:focus {
   color: var(--menu-active-color);
   font-size: 18px;
 }
+.social-media a i {
+  transition: all 0.3s linear;
+}
 .social-media a:hover {
   color: black;
+}
+.social-media a:hover i {
+  transform: scale(1.5);
 }
 
 .footer-source {
