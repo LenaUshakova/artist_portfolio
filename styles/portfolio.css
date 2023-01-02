@@ -309,6 +309,14 @@ textarea:focus {
   color: black;
 }
 
+.footer-source {
+  font-size: small;
+  color: var(--menu-active-color);
+}
+.footer-source a {
+  color: var(--menu-active-color);
+}
+
 @media (max-width: 576px) {
   footer {
     margin: 40px auto;
