@@ -21,8 +21,11 @@ header {
   top: 0;
 }
 
-.container {
-  /* padding-top: 160px; */
+footer {
+  margin: 60px auto 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -71,6 +74,16 @@ li a {
   color: black;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.container {
+  /* padding-top: 160px; */
+}
+
 .image-fill:not(.shade):hover {
   opacity: 50%;
   transition: all 500ms ease;
@@ -87,7 +100,6 @@ li a {
 .grid-1 {
   grid-row: span 3;
 }
-
 .grid-3,
 .grid-4,
 .grid-5,
@@ -216,7 +228,7 @@ li a {
 
 .about-section {
   width: 55vw;
-  height: 50vw;
+  height: 40vw;
 }
 
 .about-text h2 {
@@ -231,7 +243,7 @@ li a {
 
 .contact-section {
   width: 55vw;
-  height: 50vw;
+  height: 40vw;
 }
 
 .contact {
@@ -249,12 +261,6 @@ li a {
 
 .mailto:hover {
   color: black;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
 }
 
 input.name,
@@ -290,12 +296,24 @@ textarea:focus {
   margin: 3px;
 }
 
+.follow-me p {
+  margin: 20px 0 15px;
+}
+
+.social-media a {
+  padding: 5px 10px;
+  color: var(--menu-active-color);
+  font-size: 18px;
+}
+.social-media a:hover {
+  color: black;
+}
+
 @media (max-width: 576px) {
-  .container {
-    grid-template-columns: repeat(2, 1fr);
-    height: 170vw;
-    grid-gap: 10px;
+  footer {
+    margin: 40px auto;
   }
+
   h1 {
     font-size: 25px;
     margin: 20px 20px 15px;
@@ -312,6 +330,12 @@ textarea:focus {
   li {
     margin-bottom: 5px;
     font-size: 12px;
+  }
+
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    height: 170vw;
+    grid-gap: 10px;
   }
 
   .about-text h3 {
