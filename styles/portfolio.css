@@ -141,6 +141,14 @@ form {
   background-image: url("/images/flowers.JPG");
 }
 
+.oil-gallery-section {
+  width: 70vw;
+  height: 340vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 23px;
+}
+
 .gallery-section {
   width: 70vw;
   height: 120vw;
@@ -209,6 +217,75 @@ form {
 }
 .oil-15 {
   background-image: url("/images/yorkshire.JPG");
+}
+.oil-16 {
+  background-image: url("/images/river.JPG");
+}
+.oil-17 {
+  background-image: url("/images/dessert3.jpeg");
+}
+.oil-18 {
+  background-image: url("/images/portrait.JPG");
+}
+.oil-19 {
+  background-image: url("/images/dont_leave.jpeg");
+}
+.oil-20 {
+  background-image: url("/images/texas.jpeg");
+}
+.oil-21 {
+  background-image: url("/images/lighthouse.jpeg");
+}
+.oil-22 {
+  background-image: url("/images/bear.JPG");
+}
+.oil-23 {
+  background-image: url("/images/dessert2.JPG");
+}
+.oil-24 {
+  background-image: url("/images/girl.jpeg");
+}
+.oil-25 {
+  background-image: url("/images/melancholy.jpeg");
+}
+.oil-26 {
+  background-image: url("/images/ski_resort.jpeg");
+}
+.oil-27 {
+  background-image: url("/images/room.jpg");
+}
+.oil-28 {
+  background-image: url("/images/dessert1.jpg");
+}
+.oil-29 {
+  background-image: url("/images/fly.jpg");
+}
+.oil-30 {
+  background-image: url("/images/deer.jpg");
+}
+.oil-31 {
+  background-image: url("/images/carpaty.jpg");
+}
+.oil-32 {
+  background-image: url("/images/fenocchio.jpg");
+}
+.oil-33 {
+  background-image: url("/images/stairs.jpg");
+}
+.oil-34 {
+  background-image: url("/images/piste12.jpg");
+}
+.oil-35 {
+  background-image: url("/images//car_green.jpg");
+}
+.oil-36 {
+  background-image: url("/images/car_yellow.jpg");
+}
+.oil-37 {
+  background-image: url("/images/plein_air.jpg");
+}
+.oil-38 {
+  background-image: url("/images/annecy.jpg");
 }
 
 .about-text {
