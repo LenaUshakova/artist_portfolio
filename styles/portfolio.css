@@ -80,6 +80,25 @@ form {
   align-items: flex-end;
 }
 
+.arrow {
+  position: fixed;
+  bottom: 15px;
+  right: 90px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--menu-active-color);
+  text-decoration: none;
+}
+.fa-arrow-up {
+  color: var(--menu-active-color);
+  font-size: larger;
+}
+
 .container {
   /* padding-top: 160px; */
 }
@@ -523,6 +542,10 @@ textarea:focus {
     font-size: 12px;
   }
 
+  .arrow {
+    right: 20px;
+  }
+
   .image-fill {
     grid-row: span 1;
     width: 28vw;
@@ -569,5 +592,9 @@ textarea:focus {
 
   .submit {
     width: 100%;
+  }
+
+  .footer-source {
+    margin: 0 5px 0;
   }
 }
