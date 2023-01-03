@@ -149,9 +149,9 @@ form {
   grid-gap: 23px;
 }
 
-.gallery-section {
+.watercolor-gallery-section {
   width: 70vw;
-  height: 120vw;
+  height: 220vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 23px;
@@ -286,6 +286,91 @@ form {
 }
 .oil-38 {
   background-image: url("/images/annecy.jpg");
+}
+
+.watercolor-1 {
+  background-image: url("/images/ponytail.jpg");
+}
+.watercolor-5 {
+  background-image: url("/images/pinecone.JPG");
+}
+.watercolor-3 {
+  background-image: url("/images/violet_woman.jpg");
+}
+.watercolor-4 {
+  background-image: url("/images/street_w.jpeg");
+}
+.watercolor-2 {
+  background-image: url("/images/woman_w.jpeg");
+}
+.watercolor-5 {
+  background-image: url("/images/rabbit_w.jpeg");
+}
+.watercolor-6 {
+  background-image: url("/images/dessert_w.jpeg");
+}
+.watercolor-7 {
+  background-image: url("/images/boy_1_w.jpg");
+}
+.watercolor-8 {
+  background-image: url("/images/boy_2_w.jpg");
+}
+.watercolor-9 {
+  background-image: url("/images/fashion_sketch_w.jpg");
+}
+.watercolor-10 {
+  background-image: url("/images/artichokes_w.jpg");
+}
+.watercolor-11 {
+  background-image: url("/images/winter_still_life_w.jpg");
+}
+.watercolor-12 {
+  background-image: url("/images/llama_w.jpg");
+}
+.watercolor-13 {
+  background-image: url("/images/carpaty_w.jpg");
+}
+.watercolor-14 {
+  background-image: url("/images/breakfast_w.jpeg");
+}
+.watercolor-15 {
+  background-image: url("/images/eye_w.jpeg");
+}
+.watercolor-16 {
+  background-image: url("/images/platform_w.jpeg");
+}
+.watercolor-17 {
+  background-image: url("/images/chestnut_w.jpg");
+}
+.watercolor-18 {
+  background-image: url("/images/husky_w.jpeg");
+}
+.watercolor-19 {
+  background-image: url("/images/boat_w.jpg");
+}
+.watercolor-20 {
+  background-image: url("/images/girl_w.jpeg");
+}
+.watercolor-21 {
+  background-image: url("/images/aquarium_w.jpg");
+}
+.watercolor-22 {
+  background-image: url("/images/lips_w.jpeg");
+}
+.watercolor-23 {
+  background-image: url("/images/landscape_w.jpg");
+}
+.watercolor-24 {
+  background-image: url("/images/sunset_w.jpg");
+}
+.watercolor-25 {
+  background-image: url("/images/boat_w.jpeg");
+}
+.watercolor-26 {
+  background-image: url("/images/marina_w.jpeg");
+}
+.watercolor-27 {
+  background-image: url("/images/interior_w.jpg");
 }
 
 .about-text {
