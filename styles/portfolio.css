@@ -487,6 +487,7 @@ textarea:focus {
 
 .follow-me p {
   margin: 20px 0 15px;
+  opacity: 90%;
 }
 
 .social-media a {
